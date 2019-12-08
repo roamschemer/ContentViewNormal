@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            mc:Ignorable="d"
+            xmlns:cont="clr-namespace:ContentViewNormal.ContentViews"
+            x:Class="ContentViewNormal.Views.MainPage">
+
+    <StackLayout>
+        <cont:MyView TextData1="1段目" TextData2="こんにちは" TextData3="こんばんは"/>
+        <cont:MyView TextData1="2段目" TextData2="ほんじつは" TextData3="ようこそ"/>
+        <cont:MyView TextData1="3段目" TextData2="いらっしゃい" TextData3="ましたね"/>
+        <cont:MyView TextData1="4段目" TextData2="contentview" TextData3="こんな感じで"/>
+        <cont:MyView TextData1="5段目" TextData2="使えるようです" TextData3="にゃるほど"/>
+    </StackLayout>
+    
+</ContentPage>
